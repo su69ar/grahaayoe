@@ -20,20 +20,37 @@ export default function ContactForm() {
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      })
+
+      if(res.ok) {
+        console.log(formData)
+        alert("Thank you for your inquiry. We will contact you shortly!")
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          guests: "",
+          checkIn: "",
+          checkOut: "",
+          message: "",
+        })
+        } else {
+            alert("There was an error. Please try again later.")
+          }
+          } catch (err) {
+            console.error(err)
+            alert("Something went wrong.")
+          }
     // In a real application, you would send this data to your server
-    console.log(formData)
-    alert("Thank you for your inquiry. We will contact you shortly!")
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      guests: "",
-      checkIn: "",
-      checkOut: "",
-      message: "",
-    })
   }
 
   return (

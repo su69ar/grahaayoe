@@ -1,7 +1,8 @@
 import Link from "next/link"
+import type { ReactNode } from "react"
 
 interface HeroSectionProps {
-  title: string
+  title: ReactNode
   subtitle: string
   showButton?: boolean
   buttonText?: string

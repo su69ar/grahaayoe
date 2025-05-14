@@ -72,7 +72,7 @@ export default function ContactPage() {
                 </p>
                 <div className="flex flex-col space-y-4">
                   <a
-                    href="https://www.booking.com"
+                    href="https://www.booking.com/hotel/id/graha-ayoe.id.html?aid=356980&label=gog235jc-1DCAsoaEIfZ3JhaGEtYXlvZS1rYWJ1cGF0ZW4ta2FyYW5nYXNlbUgSWANoaIgBAZgBErgBF8gBDNgBA-gBAfgBAogCAagCA7gCnfnrwAbAAgHSAiRkNDA3OWMzNi1hMTM2LTQ5MjgtODgyMy03OTc5YjdmYTc1M2XYAgTgAgE&sid=0a9c27f91aff5ab1a0a31eb8a62148f7"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-emerald-700 hover:text-emerald-800 font-medium"

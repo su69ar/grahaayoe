@@ -7,39 +7,39 @@ import ImageGallery from "@/components/image-gallery"
 export default function AccommodationsPage() {
   const accommodationImages = [
     {
-      src: "/placeholder.svg?height=600&width=800&query=luxury+mountain+view+bedroom",
+      src: "/accomodations/Graha_Ayoe_Accomodations.jpeg",
       alt: "Mountain Suite Bedroom",
     },
     {
-      src: "/placeholder.svg?height=600&width=800&query=luxury+mountain+view+bathroom",
+      src: "/accomodations/Graha_Ayoe_Accomodations1.jpeg",
       alt: "Mountain Suite Bathroom",
     },
     {
-      src: "/placeholder.svg?height=600&width=800&query=luxury+mountain+view+balcony",
+      src: "/accomodations/The_Ayoe_Graha_Ayoe.jpeg",
       alt: "Mountain Suite Balcony",
     },
     {
-      src: "/placeholder.svg?height=600&width=800&query=luxury+ricefield+view+bedroom",
+      src: "/accomodations/Graha_Ayoe_Accomodations3.jpeg",
       alt: "Ricefield Villa Bedroom",
     },
     {
-      src: "/placeholder.svg?height=600&width=800&query=luxury+ricefield+view+living+room",
+      src: "/accomodations/Graha_Ayoe_Accomodations4.jpeg",
       alt: "Ricefield Villa Living Room",
     },
     {
-      src: "/placeholder.svg?height=600&width=800&query=luxury+ricefield+view+terrace",
+      src: "/accomodations/Graha_Ayoe_Accomodations5.jpeg",
       alt: "Ricefield Villa Terrace",
     },
     {
-      src: "/placeholder.svg?height=600&width=800&query=luxury+private+pool+villa+bedroom",
+      src: "/accomodations/Graha_Ayoe_Accomodations6.jpeg",
       alt: "Private Pool Room Bedroom",
     },
     {
-      src: "/placeholder.svg?height=600&width=800&query=luxury+private+pool+villa+bathroom",
+      src: "/GrahaAyoe.jpeg",
       alt: "Private Pool Room Bathroom",
     },
     {
-      src: "/placeholder.svg?height=600&width=800&query=luxury+private+pool+villa+pool",
+      src: "/accomodations/Graha_Ayoe_Accomodations7.jpeg",
       alt: "Private Pool",
     },
   ]
@@ -56,7 +56,7 @@ export default function AccommodationsPage() {
         <div className="container-custom">
           <SectionTitle
             title="Our Accommodations"
-            subtitle="Immerse yourself in our thoughtfully designed spaces that blend luxury with comfort."
+            subtitle="Immerse yourself in our thoughtfully designed spaces that blend nature with comfort."
           />
 
           <ImageGallery images={accommodationImages} columns={3} />
@@ -68,25 +68,22 @@ export default function AccommodationsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=800&width=1200&query=luxury+mountain+view+suite+interior"
+                src="accomodations/The_Ayoe_Graha_Ayoe_Main.jpeg"
                 alt="Mountain Suite"
                 fill
                 className="object-cover"
               />
             </div>
             <div>
-              <h2 className="text-3xl font-playfair font-bold mb-6">Mountain Suites</h2>
+              <h2 className="text-3xl font-playfair font-bold mb-6">The Ayoe</h2>
               <p className="mb-4 text-gray-700">
-                Our Mountain Suites offer a perfect blend of modern luxury and traditional charm. Each suite is designed
-                to maximize the breathtaking mountain views, creating a serene atmosphere that soothes the soul.
+              Tucked away in a peaceful green oasis, The Ayoe Villa is your perfect tropical hideaway. Surrounded by vibrant gardens, natural serenity, and fresh air, this villa blends traditional charm with modern comfort.
               </p>
               <p className="mb-4 text-gray-700">
-                The spacious layout includes a comfortable king-sized bed, a private ensuite bathroom with premium
-                amenities, and a cozy sitting area where you can relax and take in the panoramic vistas.
+              With its distinctive A-frame roof and cozy minimalist design, The Ayoe offers a private sanctuary for couples, solo travelers, or anyone seeking calm away from the noise. Wake up to the sound of birds and unwind on your private terrace with lush garden views.
               </p>
               <p className="mb-6 text-gray-700">
-                Natural materials and earthy tones dominate the décor, complementing the surrounding landscape and
-                enhancing the sense of harmony with nature.
+              As the sun sets, the garden transforms with soft ambient lighting, leading you to a beautifully lit pool just steps away—perfect for a nighttime dip under the stars.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact" className="btn-primary">
@@ -105,19 +102,15 @@ export default function AccommodationsPage() {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
-              <h2 className="text-3xl font-playfair font-bold mb-6">Ricefield Villas</h2>
+              <h2 className="text-3xl font-playfair font-bold mb-6">Graha Villas</h2>
               <p className="mb-4 text-gray-700">
-                Our Ricefield Villas offer a unique experience where serenity meets opulence. These spacious retreats
-                overlook the lush ricefields, providing a constantly changing tapestry of greens and golds as the
-                seasons progress.
+                Graha Villas a stunning retreat where comfort, style, and nature exist in perfect harmony. Nestled in a tropical landscape and thoughtfully designed for privacy and relaxation, this villa features a sleek infinity pool overlooking lush greenery, offering the ultimate sanctuary for your getaway.
               </p>
               <p className="mb-4 text-gray-700">
-                Each villa features a generous living space, a luxurious bedroom with premium bedding, and a private
-                terrace where you can enjoy your morning coffee while watching the farmers tend to their crops.
+              Start your morning with a swim as the sun rises, or spend your evening lounging by the water, surrounded by swaying palms and calming reflections. The open-concept living space flows naturally from the indoor dining area to the pool deck, creating a seamless connection between indoor comfort and outdoor beauty.
               </p>
               <p className="mb-6 text-gray-700">
-                The interiors showcase a thoughtful blend of contemporary design and traditional elements, creating a
-                space that is both sophisticated and welcoming.
+              Whether you’re on a romantic escape, a family holiday, or a wellness break, Graha Villas offers the space and atmosphere to truly unwind.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact" className="btn-primary">
@@ -130,7 +123,7 @@ export default function AccommodationsPage() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl order-1 lg:order-2">
               <Image
-                src="/placeholder.svg?height=800&width=1200&query=luxury+ricefield+view+villa+interior"
+                src="/accomodations/Graha_Villas_Graha_Ayoe_Accomodations2.jpeg"
                 alt="Ricefield Villa"
                 fill
                 className="object-cover"
@@ -145,26 +138,22 @@ export default function AccommodationsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=800&width=1200&query=luxury+villa+with+private+pool+sunset"
+                src="accomodations/The_Joglo_Graha_Ayoe.jpeg"
                 alt="Private Pool Room"
                 fill
                 className="object-cover"
               />
             </div>
             <div>
-              <h2 className="text-3xl font-playfair font-bold mb-6">Private Pool Rooms</h2>
+              <h2 className="text-3xl font-playfair font-bold mb-6">The Joglo</h2>
               <p className="mb-4 text-gray-700">
-                For the ultimate indulgence, our Private Pool Rooms offer an exclusive retreat where you can dive into
-                relaxation at any time of the day. Each room opens onto a secluded terrace with a private pool,
-                surrounded by lush greenery for complete privacy.
+              The Joglo — a beautifully preserved traditional wooden house, thoughtfully restored for comfort while retaining its cultural soul. Surrounded by lush gardens and open skies, this villa invites you to slow down, reconnect, and savor the simplicity of life in nature.
               </p>
               <p className="mb-4 text-gray-700">
-                The elegant interiors feature a sumptuous king-sized bed, a luxurious bathroom with both indoor and
-                outdoor shower options, and a comfortable lounge area perfect for unwinding after a day of exploration.
+              The open-air veranda and carved wooden details offer an authentic experience of Indonesia’s timeless elegance, making it perfect for those seeking peace, privacy, and cultural richness in one serene space.
               </p>
               <p className="mb-6 text-gray-700">
-                These rooms are ideal for honeymooners or anyone seeking an extra special experience where every detail
-                has been considered for your comfort and pleasure.
+              Whether you’re enjoying a quiet morning coffee with the sound of birds or sharing an intimate dinner as the sun sets, The Joglo is the perfect blend of heritage and hospitality.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact" className="btn-primary">

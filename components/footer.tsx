@@ -11,14 +11,14 @@ export default function Footer() {
             <p className="text-emerald-100 mb-4">A symphony of serenity where luxury harmonizes with nature.</p>
             <div className="flex space-x-4">
               <Link
-                href="https://facebook.com/GrahaAyoe"
+                href="https://www.facebook.com/graha.ayoe.3"
                 className="text-white hover:text-emerald-200 transition-colors"
               >
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
               <Link
-                href="https://instagram.com/GrahaAyoe"
+                href="https://www.instagram.com/grahaayoe/"
                 className="text-white hover:text-emerald-200 transition-colors"
               >
                 <Instagram className="h-5 w-5" />
@@ -85,7 +85,7 @@ export default function Footer() {
               </li>
               <li className="text-emerald-100 mt-2">
                 Available on{" "}
-                <a href="https://www.booking.com" className="underline hover:text-white">
+                <a href="https://www.booking.com/hotel/id/graha-ayoe.id.html?aid=356980&label=gog235jc-1DCAsoaEIfZ3JhaGEtYXlvZS1rYWJ1cGF0ZW4ta2FyYW5nYXNlbUgSWANoaIgBAZgBErgBF8gBDNgBA-gBAfgBAogCAagCA7gCnfnrwAbAAgHSAiRkNDA3OWMzNi1hMTM2LTQ5MjgtODgyMy03OTc5YjdmYTc1M2XYAgTgAgE&sid=0a9c27f91aff5ab1a0a31eb8a62148f7" target="_blank" className="underline hover:text-white">
                   Booking.com
                 </a>{" "}
                 and{" "}

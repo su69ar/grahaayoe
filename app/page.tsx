@@ -8,10 +8,15 @@ import { Bed, UtensilsCrossed, Mountain, PocketIcon as Pool, Coffee, MapPin } fr
 export default function Home() {
   return (
     <>
-      <HeroSection
-        title="Welcome to Graha Ayoe: A Symphony of Serenity"
-        subtitle="Discover a haven where luxury harmonizes with nature. Immerse yourself in the enchanting beauty of ricefields and mountains, and let the art of serenity unfold."
-      />
+<HeroSection
+  title={
+    <>
+      <span className="text-sm block text-white">Welcome to Graha Ayoe</span>
+      <span >A Symphony of Serenity</span>
+    </>
+  }
+  subtitle="Discover a haven where luxury harmonizes with nature. Immerse yourself in the enchanting beauty of ricefields and mountains, and let the art of serenity unfold."
+/>
 
       <section className="section-padding bg-white">
         <div className="container-custom">
@@ -64,7 +69,7 @@ export default function Home() {
               </div>
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
-              <Image src="/mountain-view-villa.png" alt="Graha Ayoe Interior" fill className="object-cover" />
+              <Image src="/GrahaAyoe_Banner.jpg" alt="Graha Ayoe Interior" fill className="object-cover" />
             </div>
           </div>
         </div>

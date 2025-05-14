@@ -24,7 +24,7 @@ export default function ExperiencesPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
               <div className="relative h-64">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&query=scenic+nature+walk+in+bali+ricefields"
+                  src="/experiences/Graha_Ayoe_Unique_Experience_7.jpeg"
                   alt="Nature Walks"
                   fill
                   className="object-cover"
@@ -53,7 +53,7 @@ export default function ExperiencesPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
               <div className="relative h-64">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&query=balinese+cultural+ceremony+with+traditional+dancers"
+                  src="/experiences/Graha_Ayoe_Unique_Experience_8.jpeg"
                   alt="Cultural Excursions"
                   fill
                   className="object-cover"
@@ -82,7 +82,7 @@ export default function ExperiencesPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
               <div className="relative h-64">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&query=mountain+trekking+adventure+in+bali"
+                  src="/experiences/Graha_Ayoe_Unique_Experience_5.jpeg"
                   alt="Adventure Tours"
                   fill
                   className="object-cover"
@@ -111,7 +111,7 @@ export default function ExperiencesPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
               <div className="relative h-64">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&query=cooking+class+with+fresh+ingredients+in+bali"
+                  src="/experiences/Graha_Ayoe_Unique_Experience.jpeg"
                   alt="Culinary Workshops"
                   fill
                   className="object-cover"
@@ -140,7 +140,7 @@ export default function ExperiencesPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
               <div className="relative h-64">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&query=yoga+session+in+bali+with+mountain+view"
+                  src="/experiences/Graha_Ayoe_Unique_Experience_4.jpeg"
                   alt="Wellness Activities"
                   fill
                   className="object-cover"
@@ -167,7 +167,7 @@ export default function ExperiencesPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
               <div className="relative h-64">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&query=photography+tour+in+bali+ricefields+sunset"
+                  src="/experiences/Graha_Ayoe_Unique_Experience_3.jpeg"
                   alt="Photography Tours"
                   fill
                   className="object-cover"
@@ -201,7 +201,7 @@ export default function ExperiencesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=800&width=1200&query=luxury+villa+with+private+guide+planning+excursion"
+                src="/experiences/Graha_Ayoe_Unique_Experience1.jpeg"
                 alt="Personalized Experiences"
                 fill
                 className="object-cover"

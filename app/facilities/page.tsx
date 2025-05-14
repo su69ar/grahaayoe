@@ -129,10 +129,11 @@ export default function FacilitiesPage() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=800&width=1200&query=luxury+villa+terrace+with+mountain+view"
+                src="/accomodations/Graha_Villas_Graha_Ayoe_Open_Space.jpeg"
                 alt="Outdoor Living Space"
                 fill
                 className="object-cover"
+                objectFit="cover"
               />
             </div>
           </div>
