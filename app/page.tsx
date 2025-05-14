@@ -160,12 +160,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
               <div className="relative h-64">
-                <Image src="/alpine-retreat.png" alt="Mountain Suite" fill className="object-cover" />
+                <Image src="accomodations/The_Ayoe_Graha_Ayoe_Main.jpeg" alt="Mountain Suite" fill className="object-cover" />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-playfair font-semibold mb-2">Mountain Suites</h3>
+                <h3 className="text-xl font-playfair font-semibold mb-2">The Ayoe</h3>
                 <p className="text-gray-600 mb-4">
-                  A blend of modern luxury and traditional charm with breathtaking mountain views.
+                Surrounded by vibrant gardens, natural serenity, and fresh air, this villa blends traditional charm with modern comfort.
                 </p>
                 <Link
                   href="/accommodations"
@@ -190,12 +190,12 @@ export default function Home() {
 
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
               <div className="relative h-64">
-                <Image src="/ricefield-retreat.png" alt="Ricefield Villa" fill className="object-cover" />
+                <Image src="/accomodations/Graha_Villas_Graha_Ayoe_Accomodations2.jpeg" alt="Ricefield Villa" fill className="object-cover" />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-playfair font-semibold mb-2">Ricefield Villas</h3>
+                <h3 className="text-xl font-playfair font-semibold mb-2">The Graha Villas</h3>
                 <p className="text-gray-600 mb-4">
-                  Serenity meets opulence in these retreats overlooking lush ricefields.
+                Graha Villas a stunning retreat where comfort, style, and nature exist in perfect harmony.
                 </p>
                 <Link
                   href="/accommodations"
@@ -220,12 +220,12 @@ export default function Home() {
 
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
               <div className="relative h-64">
-                <Image src="/secluded-luxury.png" alt="Private Pool Villa" fill className="object-cover" />
+                <Image src="accomodations/The_Joglo_Graha_Ayoe.jpeg" alt="Private Pool Villa" fill className="object-cover" />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-playfair font-semibold mb-2">Private Pool Rooms</h3>
+                <h3 className="text-xl font-playfair font-semibold mb-2">The Joglo</h3>
                 <p className="text-gray-600 mb-4">
-                  Dive into relaxation with our rooms featuring private pools, surrounded by nature's embrace.
+                Beautiful preserved traditional wooden house, thoughtfully restored for comfort while retaining its cultural soul.
                 </p>
                 <Link
                   href="/accommodations"
