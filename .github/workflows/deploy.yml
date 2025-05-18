@@ -31,9 +31,9 @@ jobs:
         run: pnpm install
 
       - name: Build static site
-        run: |
-          export DEPLOY_TARGET=GH_PAGES
-          pnpm run build
+        run: pnpm run build
+        env:
+          DEPLOY_TARGET: GH_PAGES
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
