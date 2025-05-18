@@ -3,14 +3,14 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Ganti jika kamu pakai branch lain
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write # Dibutuhkan untuk push ke gh-pages
+      contents: write
 
     steps:
       - name: Checkout
@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build
+      - name: Build static site
         run: |
           export DEPLOY_TARGET=GH_PAGES
           pnpm run build
