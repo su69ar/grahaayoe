@@ -129,7 +129,7 @@ export default function FacilitiesPage() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/accomodations/Graha_Villas_Graha_Ayoe_Open_Space.jpeg"
+                src="/experiences/Outdoor_OpenSpace_Graha_Ayoe_Unique_Experience.jpeg"
                 alt="Outdoor Living Space"
                 fill
                 className="object-cover"
@@ -144,50 +144,44 @@ export default function FacilitiesPage() {
         <div className="container-custom">
           <SectionTitle
             title="Additional Services"
-            subtitle="Enhance your stay with our premium services designed for your comfort and convenience."
+            subtitle="Enhance your stay with curated experiences designed to bring you deeper relaxation, ease, and harmony with nature."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-              <h3 className="text-xl font-playfair font-semibold mb-3">Concierge Services</h3>
+              <h3 className="text-xl font-playfair font-semibold mb-3">Personalized Concierge</h3>
               <p className="text-gray-600">
-                Our dedicated concierge team is available to assist with restaurant reservations, activity bookings,
-                special requests, and local recommendations to ensure that your stay is seamless and memorable.
+              Let our attentive concierge team assist you with everything from nature excursions and cultural experiences to personalized dining and wellness requests — all to ensure your stay is seamless and soul-nourishing.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-              <h3 className="text-xl font-playfair font-semibold mb-3">In-Villa Spa Treatments</h3>
+              <h3 className="text-xl font-playfair font-semibold mb-3">In-Villa Spa Rituals</h3>
               <p className="text-gray-600">
-                Indulge in relaxation with our in-villa spa services. Choose from a menu of massages, facials, and body
-                treatments delivered by skilled therapists in the comfort of your accommodation.
+              Surrender to serenity with our in-villa spa offerings. Enjoy a selection of therapeutic massages, facials, and holistic treatments performed by experienced therapists in the peaceful privacy of your villa, surrounded by nature.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-              <h3 className="text-xl font-playfair font-semibold mb-3">Childcare Services</h3>
+              <h3 className="text-xl font-playfair font-semibold mb-3">Gentle Childcare Services</h3>
               <p className="text-gray-600">
-                Traveling with family? Our professional childcare services allow parents to enjoy some adult time while
-                ensuring that children are well-cared for and entertained.
+              Traveling with little ones? Our nurturing childcare service allows you to fully unwind while your children are lovingly cared for and engaged in playful, enriching activities.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
               <h3 className="text-xl font-playfair font-semibold mb-3">Grocery Pre-Stocking</h3>
               <p className="text-gray-600">
-                Arrive to a fully stocked kitchen with our grocery pre-stocking service. Simply provide your
-                preferences, and we'll ensure that your favorite foods and beverages are waiting for you.
+              Arrive to a thoughtfully stocked kitchen filled with your favorite fresh foods, snacks, and beverages. Simply share your preferences, and we’ll take care of the rest, so you can settle in with ease.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-              <h3 className="text-xl font-playfair font-semibold mb-3">Special Occasion Planning</h3>
+              <h3 className="text-xl font-playfair font-semibold mb-3">Special Moment Planning</h3>
               <p className="text-gray-600">
-                Celebrating a special event? Our team can help arrange decorations, cakes, flowers, and other elements
-                to make your celebration truly memorable.
+              Mark your special occasion with the beauty of nature as your backdrop. Whether it’s a romantic evening, a birthday celebration, or an intimate gathering, our team will arrange flowers, decor, and more to create unforgettable memories.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-              <h3 className="text-xl font-playfair font-semibold mb-3">Fitness Equipment</h3>
+              <h3 className="text-xl font-playfair font-semibold mb-3">Nature Adventures</h3>
               <p className="text-gray-600">
-                Maintain your fitness routine with our selection of exercise equipment available upon request, from yoga
-                mats to free weights.
+              Reconnect with the earth through guided outdoor experiences — from forest walks and hidden waterfalls to sunrise hikes and local cultural trails. Each journey is designed to awaken your senses and deepen your connection to nature.
               </p>
             </div>
           </div>
