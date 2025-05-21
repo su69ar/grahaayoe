@@ -5,11 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "predeploy": "DEPLOY_TARGET=GH_PAGES npm run build",
-    "deploy": "gh-pages -d out",
-    "lint": "next lint",
-    "install-legacy": "npm install --legacy-peer-deps"
+    "start": "next start"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
