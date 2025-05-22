@@ -24,7 +24,7 @@ export default function Footer() {
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="mailto:Grahaayoe02@gmail.com" className="text-white hover:text-emerald-200 transition-colors">
+              <Link href="mailto:graha.ayoe1@gmail.com" className="text-white hover:text-emerald-200 transition-colors">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
               </Link>
@@ -73,14 +73,14 @@ export default function Footer() {
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="text-emerald-100">+62816576485</p>
-                  <p className="text-emerald-100">+6285922461901</p>
+                  <p className="text-emerald-100"><a href="tel:62816576485">+62 816-576-485</a></p>
+                  <p className="text-emerald-100"><a href="tel:628164711704">+62 816-4711-704</a></p>
                 </div>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 flex-shrink-0" />
-                <a href="mailto:Grahaayoe02@gmail.com" className="text-emerald-100 hover:text-white transition-colors">
-                  Grahaayoe02@gmail.com
+                <a href="mailto:graha.ayoe1@gmail.com" className="text-emerald-100 hover:text-white transition-colors">
+                graha.ayoe1@gmail.com
                 </a>
               </li>
               <li className="text-emerald-100 mt-2">

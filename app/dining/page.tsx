@@ -8,7 +8,7 @@ export default function DiningPage() {
   return (
     <>
       <HeroSection
-        title="Culinary Journey"
+        title="Local and International"
         subtitle="Savor the flavors of Graha Ayoe with our culinary offerings."
         imageHeight="h-[50vh]"
       />

@@ -30,8 +30,8 @@ export default function ContactPage() {
                     <Phone className="h-6 w-6 text-emerald-700 mr-4 mt-1" />
                     <div>
                       <h4 className="font-medium mb-1">Phone</h4>
-                      <p className="text-gray-600">+62816576485</p>
-                      <p className="text-gray-600">+6285922461901</p>
+                      <p className="text-gray-600"><a href="tel:62816576485">+62 816-576-485</a></p>
+                      <p className="text-gray-600"><a href="tel:628164711704">+62 816-4711-704</a></p>
                     </div>
                   </div>
 
@@ -40,8 +40,8 @@ export default function ContactPage() {
                     <div>
                       <h4 className="font-medium mb-1">Email</h4>
                       <p className="text-gray-600">
-                        <a href="mailto:Grahaayoe02@gmail.com" className="hover:text-emerald-700">
-                          Grahaayoe02@gmail.com
+                        <a href="mailto:graha.ayoe1@gmail.com" className="hover:text-emerald-700">
+                        graha.ayoe1@gmail.com
                         </a>
                       </p>
                     </div>
@@ -51,7 +51,7 @@ export default function ContactPage() {
                     <MapPin className="h-6 w-6 text-emerald-700 mr-4 mt-1" />
                     <div>
                       <h4 className="font-medium mb-1">Location</h4>
-                      <p className="text-gray-600">Nestled amidst the beautiful ricefields and mountains.</p>
+                      <p className="text-gray-600">Jalan Dusun Dukuh, Sangkan Gn., Kec. Sidemen, Kabupaten Karangasem, Bali 80864</p>
                     </div>
                   </div>
 
