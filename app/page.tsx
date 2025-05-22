@@ -33,7 +33,7 @@ export default function Home() {
             />
             <FeatureCard
               title="Culinary Journey"
-              description="Savor the flavors with our gourmet kitchen and curated menus showcasing the best of local cuisine."
+              description="Savor the flavors with our home-style kitchen and curated menus showcasing the best of local cuisine."
               icon={UtensilsCrossed}
             />
             <FeatureCard
