@@ -36,7 +36,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl order-1 lg:order-2">
               <Image
-                src="/placeholder.svg?height=800&width=1200&query=luxury+villa+exterior+with+mountains"
+                src="/others/Graha_Ayoe_Sidemen_2.webp"
                 alt="Graha Ayoe Exterior"
                 fill
                 className="object-cover"
@@ -84,7 +84,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=800&width=1200&query=luxury+villa+staff+providing+service"
+                src="/others/Graha_Ayoe_Sidemen_3.webp"
                 alt="Graha Ayoe Service"
                 fill
                 className="object-cover"

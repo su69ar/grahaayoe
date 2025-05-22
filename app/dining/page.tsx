@@ -36,7 +36,7 @@ export default function DiningPage() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl order-1 lg:order-2">
               <Image
-                src="/placeholder.svg?height=800&width=1200&query=luxury+villa+gourmet+kitchen"
+                src="/dining/Graha_Ayoe_Dining_4.jpg"
                 alt="Gourmet Kitchen"
                 fill
                 className="object-cover"
@@ -57,7 +57,7 @@ export default function DiningPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
               <div className="relative h-64">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&query=private+chef+preparing+gourmet+meal"
+                  src="/others/Graha_Ayoe_Sidemen.webp"
                   alt="Private Chef Service"
                   fill
                   className="object-cover"
@@ -138,7 +138,7 @@ export default function DiningPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
               <div className="relative h-64">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&query=wine+and+cheese+pairing+in+luxury+setting"
+                  src="/others/Graha_Ayoe_Sidemen_2.webp"
                   alt="Special Dining Events"
                   fill
                   className="object-cover"
