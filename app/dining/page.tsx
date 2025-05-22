@@ -17,21 +17,17 @@ export default function DiningPage() {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
-              <h2 className="text-3xl font-playfair font-bold mb-6">Gourmet Kitchen</h2>
+              <h2 className="text-3xl font-playfair font-bold mb-6">Home-Style Kitchen</h2>
               <p className="mb-4 text-gray-700">
-                At Graha Ayoe, we believe that culinary experiences are an integral part of a memorable stay. Our
-                fully-equipped gourmet kitchen is designed for both functionality and aesthetics, allowing you to
-                prepare your own meals or enjoy the creations of our private chef.
+              At Graha Ayoe, we provide a comfortable and practical kitchen for guests who prefer to prepare their own meals. Equipped with basic cooking tools and appliances, it’s ideal for making simple dishes or snacks during your stay.
               </p>
               <p className="mb-4 text-gray-700">
-                The kitchen features premium appliances, ample counter space, and all the utensils and cookware you
-                might need. Whether you're a culinary enthusiast looking to experiment with local ingredients or simply
-                want to prepare a quick snack, our kitchen provides the perfect setting.
+              If you’d rather not cook, we can help connect you with local chef services upon request.
               </p>
-              <p className="mb-6 text-gray-700">
+              {/* <p className="mb-6 text-gray-700">
                 For those who prefer to leave the cooking to the experts, our private chef service offers a range of
                 dining options, from casual family-style meals to elegant multi-course dinners.
-              </p>
+              </p> */}
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact" className="btn-primary">
                   Book Chef Service
@@ -88,7 +84,7 @@ export default function DiningPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
               <div className="relative h-64">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&query=traditional+balinese+food+spread"
+                  src="/dining/Graha_Ayoe_ Dining_2.jpeg"
                   alt="Local Delicacies"
                   fill
                   className="object-cover"
@@ -115,7 +111,7 @@ export default function DiningPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
               <div className="relative h-64">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&query=cooking+class+with+chef+in+luxury+kitchen"
+                  src="/dining/Graha_Ayoe_ Dining_1.jpeg"
                   alt="Cooking Classes"
                   fill
                   className="object-cover"
@@ -172,12 +168,13 @@ export default function DiningPage() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
+            <div className="relative h-[600px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=800&width=1200&query=fresh+local+ingredients+from+market"
+                src="/dining/Graha_Ayoe_ Dining.jpeg"
                 alt="Fresh Local Ingredients"
                 fill
                 className="object-cover"
+                objectPosition="top"
               />
             </div>
             <div>

@@ -110,18 +110,13 @@ export default function FacilitiesPage() {
             <div>
               <h2 className="text-3xl font-playfair font-bold mb-6">Outdoor Living Spaces</h2>
               <p className="mb-4 text-gray-700">
-                At Graha Ayoe, we believe that the boundaries between indoor and outdoor living should be fluid. Our
-                thoughtfully designed outdoor spaces allow you to fully immerse yourself in the natural beauty that
-                surrounds our property.
+              Welcome to a hidden sanctuary nestled in nature — a peaceful villa retreat where tranquility meets the beauty of the outdoors. Surrounded by lush tropical greenery, tall trees, and a backdrop of rolling hills, this villa offers an escape from the noise and rush of everyday life.
               </p>
               <p className="mb-4 text-gray-700">
-                From spacious terraces with comfortable seating to intimate garden nooks perfect for morning meditation
-                or afternoon tea, our outdoor areas provide numerous opportunities to connect with nature while enjoying
-                the comforts of luxury living.
+              Designed with a harmonious blend of traditional charm and modern comfort, the villa features warm terracotta roofs, open terraces, and cozy interiors that invite the natural light and fresh air in. The landscaped garden is filled with blooming tropical flowers, creating a serene atmosphere that soothes the soul.
               </p>
               <p className="mb-6 text-gray-700">
-                The gentle sounds of nature, the fragrance of tropical flowers, and the breathtaking views create an
-                ambiance that soothes the soul and rejuvenates the spirit.
+              Whether you’re relaxing by the private pool overlooking the jungle, sipping coffee on the porch, or simply listening to the sounds of nature, this villa promises a rejuvenating stay in perfect harmony with its surroundings.
               </p>
               <Link href="/contact" className="btn-primary">
                 Book Your Stay

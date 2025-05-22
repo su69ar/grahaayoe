@@ -68,7 +68,7 @@ export default function AccommodationsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="accomodations/The_Ayoe_Graha_Ayoe_Main.jpeg"
+                src="/accomodations/The_Ayoe_Graha_Ayoe_Main.jpeg"
                 alt="Mountain Suite"
                 fill
                 className="object-cover"
@@ -138,7 +138,7 @@ export default function AccommodationsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="accomodations/The_Joglo_Graha_Ayoe.jpeg"
+                src="/accomodations/The_Joglo_Graha_Ayoe.jpeg"
                 alt="Private Pool Room"
                 fill
                 className="object-cover"
