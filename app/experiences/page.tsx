@@ -108,7 +108,7 @@ export default function ExperiencesPage() {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+            {/* <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
               <div className="relative h-64">
                 <Image
                   src="/experiences/Graha_Ayoe_Unique_Experience.jpeg"
@@ -135,9 +135,9 @@ export default function ExperiencesPage() {
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+            {/* <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
               <div className="relative h-64">
                 <Image
                   src="/experiences/Graha_Ayoe_Unique_Experience_4.jpeg"
@@ -162,9 +162,9 @@ export default function ExperiencesPage() {
                   <span className="bg-emerald-100 text-emerald-800 text-xs px-2 py-1 rounded-full">All Levels</span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+            {/* <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
               <div className="relative h-64">
                 <Image
                   src="/experiences/Graha_Ayoe_Unique_Experience_3.jpeg"
@@ -191,7 +191,7 @@ export default function ExperiencesPage() {
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

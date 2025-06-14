@@ -65,7 +65,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-lg shadow-md">
+              {/* <div className="bg-gray-50 p-8 rounded-lg shadow-md">
                 <h3 className="text-2xl font-playfair font-semibold mb-6">Book Through Partners</h3>
                 <p className="text-gray-600 mb-4">
                   You can also book your stay at Graha Ayoe through our trusted partners:
@@ -90,7 +90,7 @@ export default function ContactPage() {
                     Book on Agoda
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div>
