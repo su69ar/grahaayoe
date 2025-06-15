@@ -167,12 +167,12 @@ export default function FacilitiesPage() {
               Arrive to a thoughtfully stocked kitchen filled with your favorite fresh foods, snacks, and beverages. Simply share your preferences, and we’ll take care of the rest, so you can settle in with ease.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+            {/* <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
               <h3 className="text-xl font-playfair font-semibold mb-3">Special Moment Planning</h3>
               <p className="text-gray-600">
               Mark your special occasion with the beauty of nature as your backdrop. Whether it’s a romantic evening, a birthday celebration, or an intimate gathering, our team will arrange flowers, decor, and more to create unforgettable memories.
               </p>
-            </div>
+            </div> */}
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
               <h3 className="text-xl font-playfair font-semibold mb-3">Nature Adventures</h3>
               <p className="text-gray-600">
